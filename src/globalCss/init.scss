@@ -1,0 +1,25 @@
+@import './ps2-rem.scss';
+body {
+  font-size: 14px !important;
+}
+li {
+  list-style: none;
+}
+img {
+  display: block;
+  width: 100%;
+}
+h1,h2,h3,h4,h5{
+  margin: 0;
+}
+a{
+  text-decoration: none;
+  color: #555;
+}
+.container {
+  padding: px-to-rem(18);
+}
+ul {
+  padding: 0;
+  margin: 0;
+}

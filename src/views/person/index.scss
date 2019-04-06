@@ -1,0 +1,120 @@
+@import '../../globalCss/ps2-rem';
+
+.person {
+  .top-wrap {
+    padding: px-to-rem(18);
+    background: #1658bc;
+    box-shadow: 0 0 2px 2px #1658bc;
+    .login-box {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: #fff;
+      .left {
+        h2 {
+          font-size: 28px;
+        }
+        .desc {
+          margin-top: 10px;
+          color: #eee;
+          font-size: 12px;
+        }
+      }
+      .right {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .iconfont {
+          font-size: 15px;
+        }
+        img {
+          width: 72px;
+          height: 72px;
+          border-radius: 50%;
+        }
+      }
+    }
+    .user-box {
+      flex-direction: row-reverse;
+      justify-content: flex-end;
+      .left {
+        margin-left: 22px;
+      }
+    }
+    .collection-data {
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+      color:#fff;
+      font-size: 12px;
+      margin-top: 30px;
+      .collection-item {
+        .title {
+          font-size: 16px;
+          .little-title {
+            font-size: 12px;
+          }
+        }
+        .desc {
+          margin-top: 6px;
+        }
+        &:nth-child(1) {
+          width: 30%;
+        }
+        &:nth-child(2) {
+          width: 40%;
+        }
+        &:nth-child(3) {
+          width: 30%;
+        }
+
+      }
+      .col-line {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 1px;
+        height: 22px;
+        background: #eaeaea;
+        &:nth-child(4) {
+          left: 30%;
+        }
+        &:nth-child(5) {
+          right: 30%;
+        }
+      }
+    }
+  }
+  .menu {
+    margin-top: 40px;
+    padding: px-to-rem(18);
+    align-content: center;
+    .menu-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 8px 0;
+      border-bottom: 1px solid #eee;
+      .menu-item-left {
+        display: flex;
+        align-items: center;
+        .menu-item-text {
+          margin-left: 10px;
+        }
+        .iconfont {
+          font-size: 30px;
+        }
+        .icon-xiugaixinxi {
+          color: #1083fe;
+        }
+        .icon-huaban {
+          color: #FDBDC2;
+        }
+       .icon-xihuan {
+          color: #f4de5e;
+        }
+      }
+    }
+  }
+}

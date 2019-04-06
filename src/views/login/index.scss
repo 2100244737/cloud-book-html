@@ -1,0 +1,17 @@
+@import '../../globalCss/ps2-rem';
+.login {
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    .iconfont {
+      font-size: 100px;
+      color: #1083fe
+    }
+  }
+  .router-wrap {
+    text-align: right;
+    margin-top: 20px;
+  }
+}
